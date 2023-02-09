@@ -97,22 +97,26 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: #044875;
+  background: url(../img/bkgrd-blue-flowers.png);
+  background-size: cover;
   height: 100%;
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   padding: 2em;
-  font-size: 1.25em;
+  font-size: 16px;
   height: 100%;
 }
 
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
-  font-weight: 700;
+
   display: flex;
   justify-content: space-between;
+  
 }
 
 .div-1, .div-2, .div-3 {
@@ -123,11 +127,21 @@ body {
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.6em;
-  background-color: #f16059;
+  font-size: 1.2em;
+  text-align: center;
+  background-color: #045d75;
   height: 300px;
+  padding: 3%;
+  box-sizing : border-box;
+  overflow : auto;
+  box-shadow: 5px 5px 5px #002a36;
 }
 
+
+#bold {
+    font-weight: 600;
+    color: goldenrod;
+}
 
 
 
